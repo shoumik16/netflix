@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+.main {
+
+    width: 100%;
+    background-image: url('./Assets/images/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: #000;
+}
+
+html,
+body {
+  
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.main .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: black;
+    opacity: .65;
+}
+
+.hero {
+    height: calc(100% - 68px);
+    font-family: "Martel Sans", sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.main .header {
+    width: 80vw;
+    height: 68px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+
+}
+
+ .hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+}
+
+.hero-price {
+    font-size: 20px;
+}
+
+.hero-description {
+    font-size: 20px;
+}
+
+.seperate {
+    height: 11px;
+    background-color: gray;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-sign {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+
+    border-radius: 4;
+    background-color: rgba(14, 14, 14, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    width: min(588px, 90vw);
+    height: 48px;
+    font-size: 20px;
+    padding: 0px 0px 0px 2px;
+
+
+
+}
+
+.btn-try {
+    background-color: red;
+    color: white;
+
+    width: min(310px, 90vw);
+
+    height: 48px;
+
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.hb {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.section1 .text1 {
+    color: white;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .section1 {
+        flex-wrap: wrap;
+    }
+
+}
+
+.text1> :nth-child(1) {
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.section1 {
+
+    margin: 25px auto;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 50vw;
+    margin: 30px auto;
+}
+
+.img1 {
+    position: relative;
+
+}
+
+
+.img20 img {
+    position: relative;
+    z-index: 10;
+    width: 384px;
+}
+
+.img2 video {
+    position: absolute;
+
+    left: 0px;
+    top: 51px;
+    width: 384px;
+}
+@media screen and (max-width: 600px) {
+
+    .main {
+        width: 100%;
+        height: 80vh;
+        min-height: 80vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+
+    .hero {
+        
+        height: calc(80vh - 68px);
+        min-height: 0px;
+    }
+
+
+
+    .hb {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    
+    .main .header {
+        width: 80%;
+        height: 68px;
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .header .btn {
+        font-size: 12px;
+        padding: 5px 7px;
+    }
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .hero-price {
+        font-size: 16px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+   
+}
+    
+   
+
+
+
